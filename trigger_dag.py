@@ -11,7 +11,7 @@ print("connecting to instance........")
 ssh_client.connect(hostname = airflow_instance_ip, username='ubuntu', pkey = key)
 print("connected")
 ftp_client=ssh_client.open_sftp()
-commands = ["sudo docker exec 0140c4996948 airflow dags trigger Back-Order"]
+commands = ["sudo docker exec 7689635ac539 airflow dags trigger Back-Order"]
 
 for cmd in commands:
     stdin, stdout, stderr = ssh_client.exec_command(cmd)
