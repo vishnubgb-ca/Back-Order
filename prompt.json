@@ -1,0 +1,5 @@
+{
+  "Data_Analysis": "",
+  "Data_perprocessing": "Write a Python program that performs data preprocessing, including removing duplicate rows, handling missing values, scaling numerical variables, encoding categorical variables, and creating new features based on existing ones",
+  "Feature-Engineering": ""
+}
